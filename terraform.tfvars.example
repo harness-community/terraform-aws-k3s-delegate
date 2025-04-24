@@ -1,0 +1,9 @@
+delegate_name          = "k3s1"
+vpc_security_group_ids = ["sg-03282fca9eea04eb6"]
+subnet_id              = "subnet-08f14e7142d333595"
+# ubuntu for us-west-2
+ami                    = "ami-04181fdd41a180f25"
+# default aws role
+iam_instance_profile   = "AmazonSSMRoleForInstancesQuickSetup"
+
+delegate_docker_image = "us-docker.pkg.dev/gar-prod-setup/harness-public/harness/delegate:25.04.85602"
